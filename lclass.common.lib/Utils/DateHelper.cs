@@ -93,8 +93,13 @@ namespace lclass.common.lib.Utils
 
         public static string  ConvertTimestampToFormat(string formats)
         {
+
+
             return DateTime.Now.ToString(formats);
 
+
+
         }
+
     }
 }
