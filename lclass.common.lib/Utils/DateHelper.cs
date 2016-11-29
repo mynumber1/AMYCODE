@@ -89,5 +89,12 @@ namespace lclass.common.lib.Utils
             DateTime newDateTime = converted.AddSeconds(timestamp);
             return newDateTime.ToLocalTime();
         }
+
+
+        public static string  ConvertTimestampToFormat(string formats)
+        {
+            return DateTime.Now.ToString(formats);
+
+        }
     }
 }
